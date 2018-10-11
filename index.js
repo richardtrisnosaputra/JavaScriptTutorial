@@ -1,5 +1,15 @@
-let name = 'Richard';
-console.log(name);
+//making an object
+let person = {
+    name: 'Richard',
+    age: 30
+};
+console.log(person);
 
-const interestRate = 0.3;
-console.log(interestRate);
+//access an object value
+person.name = 'John';
+console.log(person.name);
+
+//access an object using bracket
+let selection = 'name';
+person[selection] = 'Mary';
+console.log(person[selection]);
